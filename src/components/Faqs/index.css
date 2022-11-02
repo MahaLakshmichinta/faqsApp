@@ -1,0 +1,53 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 50vh;
+  max-width: 550px;
+  width: 80%;
+  padding-top: 31px;
+  padding-right: 13px;
+  width: 87%;
+  padding-bottom: 31px;
+  padding-left: 13px;
+  height: 70vh;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 90%;
+    max-width: 1120px;
+    padding: 30px;
+    height: 110vh;
+  }
+}
+.heading {
+  color: #cb8805;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 650;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+.list-container {
+  list-style-type: none;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    width: 80%;
+  }
+}

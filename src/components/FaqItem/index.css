@@ -1,0 +1,32 @@
+/* Write your code here. */
+.list-items {
+  width: 100%;
+  border: 1px solid #d7dae6;
+  border-radius: 14px;
+  margin-bottom: 22px;
+  padding: 16px;
+}
+.card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-ques {
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .heading-ques {
+    font-size: 35px;
+  }
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.image {
+  width: 20px;
+  height: 20px;
+}
